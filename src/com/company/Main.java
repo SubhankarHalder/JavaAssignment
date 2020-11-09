@@ -70,10 +70,14 @@ public class Main {
                                 message_choice = console.nextInt();
                                 switch (message_choice) {
                                     case 1:
+                                        new_person.convo.getMessage();
                                         break;
                                     case 2:
+                                        System.out.println("Enter message to be sent");
+                                        String conversation = console.next();
+                                        new_person.convo.setMessage(conversation);
                                         break;
-                                    case 3:
+                                    default:
                                         break;
                                 }
                                 }

@@ -10,7 +10,7 @@ public class Message {
             System.out.println("No messages sent");
         }
         else {
-            for (String msg: cellmessage){
+            for (String msg: cell_message){
                 System.out.println(msg);
             }
         }
