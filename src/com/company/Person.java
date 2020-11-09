@@ -8,7 +8,4 @@ public class Person {
         this.person_name = given_name;
     }
 
-    public void getContactList(){
-        this.address.listContacts();
-    }
 }
